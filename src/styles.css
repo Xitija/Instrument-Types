@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+body {
+  /* background-image: url("/musical-bgr.png"); */
+  background: center/cover url("musical-bgr.png") no-repeat;
+}
+
+.App,
+button {
+  font-family: "Cookie", cursive;
+
+  /* background-image: url("musical-bgr.png"); */
+}
+
+h1 {
+  background-color: aquamarine;
+  margin: 0%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.outer {
+  background-image: url("musical-bgr.png");
+  text-align: center;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 2.5rem;
+  background-color: #cf90a3;
+  border: none;
+  cursor: pointer;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+ul {
+  background: #3399ff;
+  padding: 1rem;
+}
+
+.list-stl {
+  list-style: none;
+  font-size: 2.5rem;
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+  padding: 0.2rem;
+  overflow: hidden;
+}
+
+img {
+  width: 10%;
+  height: auto;
+  border: 1px solid blue;
+}
+
+p {
+  display: inline;
+  font-size: 2rem;
+}
+
+.hero-img {
+  max-width: 12%;
+  float: left;
+  margin-right: 2rem;
+}
