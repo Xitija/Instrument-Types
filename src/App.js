@@ -201,14 +201,14 @@ export default function App() {
         </div>
         <div>
           <ul>
-            {instrumentTypes[type].map((iType) => (
+            {instrumentTypes[type].map((iType, index) => (
               // <li className="list-stl" key={iType}>
               //   {iType.name}
               //   <div>
               //     <img className="list-stl" alt="img" src={iType.img} />
               //   </div>
               // </li>
-              <li className="list-stl" key={iType}>
+              <li className="list-stl" key={iType+index}>
                 <img className="hero-img" alt="img" src={iType.img} />
                 <div>
                   <div style={{ textDecoration: "underline overline" }}>
@@ -220,6 +220,9 @@ export default function App() {
             ))}
           </ul>
         </div>
+      </div>
+      <div>
+        View this Project on <a href="https://github.com/Xitija/Instrument-Types">Github</a>
       </div>
     </div>
   );
