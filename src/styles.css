@@ -2,7 +2,7 @@
 
 body {
   /* background-image: url("/musical-bgr.png"); */
-  background: center/cover url("musical-bgr.png") no-repeat;
+  background: center/cover url("./images/musical-bgr.png") no-repeat;
 }
 
 .App,
@@ -20,7 +20,7 @@ h1 {
 }
 
 .outer {
-  background-image: url("musical-bgr.png");
+  background-image: url("./images/musical-bgr.png");
   text-align: center;
 }
 
